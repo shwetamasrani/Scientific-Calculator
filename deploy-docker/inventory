@@ -1,0 +1,2 @@
+[remoteserver]
+172.16.144.176 ansible_user=root

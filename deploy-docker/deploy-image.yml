@@ -1,6 +1,6 @@
 ---
 - name: Pull docker image of Scientific Calculator
-  hosts: all
+  hosts: remoteserver
   tasks:
     - name: Pull scientific calculator image
       docker_image:
