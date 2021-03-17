@@ -12,17 +12,18 @@ public class Calculator {
     public static void main(String[] args) throws IOException {
 
         Calculator obj = new Calculator();
-        System.out.println("Calculator!");
+        System.out.println("\n\n---------Scientific Calculator--------\n");
         System.out.println("Please select one of the operations:");
-        System.out.println("1. Press 1 for Square root");
-        System.out.println("2. Press 2 for Factorial");
-        System.out.println("3. Press 3 for Natural Logarithm");
-        System.out.println("4. Press 4 for Power ");
-        System.out.println("Press 5 to exit!");
+        System.out.println("Press 1 for Square root");
+        System.out.println("Press 2 for Factorial");
+        System.out.println("Press 3 for Natural Logarithm");
+        System.out.println("Press 4 for Power ");
+        System.out.println("Press 5 to exit!\n");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         while(true){
             int choice = Integer.parseInt(br.readLine());
+
             switch (choice){
                 case 1: {
                     System.out.println("Enter the number for calculating square root:");
@@ -56,6 +57,11 @@ public class Calculator {
                 }
             }
 
+            System.out.println("\nPress 1 for Square root");
+            System.out.println("Press 2 for Factorial");
+            System.out.println("Press 3 for Natural Logarithm");
+            System.out.println("Press 4 for Power ");
+            System.out.println("Press 5 to exit!\n");
         }
 
         }
